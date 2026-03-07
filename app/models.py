@@ -1,8 +1,8 @@
-from __future__ import annotations
+__future__ import annotations
 
 from typing import Any
 
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class BaseIntervalsModel(BaseModel):
@@ -82,10 +82,58 @@ class WellnessSummary(BaseIntervalsModel):
         return str(self.id)
 
 
+class PowerCurvePoint(BaseIntervalsModel):
+    duration_seconds: int
+    watts: float | None = None
+    watts_per_kg: float | None = None
+    source: str | None = None
+
+
+class PowerCurveSnapshot(BaseIntervalsModel):
+    label: str | None = None
+    date: str | None = None
+    points: list[PowerCurvePoint] = Field(default_factory=list)
+    modeled_ftp: float | None = None
+    time_to_exhaustion_seconds: float | None = None
+    durability_notes: list[str] = Field(default_factory=list)
+
+
+class HistoricalTrainingSummary(BaseIntervalsModel):
+    period_label: str
+    start_date: str | None = None
+    end_date: str | None = None
+    total_activities: int | None = None
+    total_duration_seconds: float | None = None
+    total_distance: float | None = None
+    total_training_load: float | None = None
+    consistency_score: float | None = None
+    notes: list[str] = Field(default_factory=list)
+
+
+class PerformanceTrend(BaseIntervalsModel):
+    metric: str
+    direction: str | None = None
+    change_percent: float | None = None
+    timeframe: str | None = None
+    summary: str | None = None
+
+
+class CoachRecommendation(BaseIntervalsModel):
+    summary: str
+    observations: list[str] = Field(default_factory=list)
+    interpretation: list[str] = Field(default_factory=list)
+    recommendations: list[str] = Field(default_factory=list)
+    requires_approval: bool = True
+    proposed_write_action: str | None = None
+
+
 class DashboardSnapshot(BaseIntervalsModel):
     activities: list[ActivitySummary]
     planned_workouts: list[PlannedWorkoutSummary]
     wellness_entries: list[WellnessSummary]
+    power_curve: PowerCurveSnapshot | None = None
+    history: list[HistoricalTrainingSummary] = Field(default_factory=list)
+    trends: list[PerformanceTrend] = Field(default_factory=list)
 
 
 def validate_activity_list(items: list[dict[str, Any]]) -> list[ActivitySummary]:
@@ -103,3 +151,24 @@ def validate_planned_workout_list(
 def validate_wellness_list(items: list[dict[str, Any]]) -> list[WellnessSummary]:
     """Convert raw wellness JSON objects into WellnessSummary models."""
     return [WellnessSummary.model_validate(item) for item in items]
+
+
+def validate_power_curve(
+    item: dict[str, Any] | None,
+) -> PowerCurveSnapshot | None:
+    """Convert a raw power curve JSON object into a PowerCurveSnapshot."""
+    if item is None:
+        return None
+    return PowerCurveSnapshot.model_validate(item)
+
+
+def validate_history_list(
+    items: list[dict[str, Any]],
+) -> list[HistoricalTrainingSummary]:
+    """Convert raw historical summary JSON objects into models."""
+    return [HistoricalTrainingSummary.model_validate(item) for item in items]
+
+
+def validate_trend_list(items: list[dict[str, Any]]) -> list[PerformanceTrend]:
+    """Convert raw performance trend JSON objects into models."""
+    return [PerformanceTrend.model_validate(item) for item in items]
