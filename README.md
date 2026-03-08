@@ -52,3 +52,12 @@ Schreibzugriffe sind nur erlaubt, wenn:
 2. eine konkrete Freigabe für die jeweilige Aktion vorliegt
 
 Ohne diese Bedingungen bleibt das System read-only.
+
+## Coach Brain V2
+
+Diese Version ergänzt:
+- rule-based Power Curve / TTE interpretation
+- Durability / Decoupling analysis via activity intervals or streams
+- Macro/Meso plan alignment using files in `docs/training_context/`
+
+Die Write-Back-Logik bleibt approval-first.

@@ -1,0 +1,437 @@
+Makroplan bis August
+
+1. **Beispiel-Wochen** für 8–12 h (Deload) bis 16 h (High) innerhalb deines festen Rhythmus.
+2. **Progression der Bike-Over/Under-Intervalle** zur Verlängerung der Time-to-Exhaustion (TTE) Richtung ~40 min und zur Anhebung der FTP Richtung 265–270 W.
+
+Die Struktur respektiert deinen Standard-Wochenrhythmus und deine Vorgaben (Run über rFTP, Swim Erhalt, Samstag Longrun/spezifisch, Sonntag ggf. Longride/Groupride mit Surges).
+
+---
+
+# Standard-Wochenrhythmus (fix)
+
+**Swim**
+Di / Do / Sa – Technik + Aerobic (Erhalt)
+
+**Bike**
+Mi / Fr / So
+
+**Run**
+
+**Dienstag**
+
+* Easy Run zur Arbeit
+* Easy Run zurück
+
+**Donnerstag**
+
+* Easy Run zur Arbeit
+* **Quality Run zurück**
+
+**Samstag**
+
+* **Longrun oder spezifischer Run**
+
+**Sonntag**
+
+* Longride / Groupride / Race-Simulation
+
+---
+
+# Intensitätsreferenzen
+
+### Bike
+
+| Zone       | % FTP   |
+| ---------- | ------- |
+| Z2         | 65–75   |
+| Tempo      | 80–85   |
+| Sweet Spot | 88–92   |
+| Schwelle   | 95–100  |
+| VO2        | 110–120 |
+
+---
+
+### Run (rFTP)
+
+| Zone     | % rFTP  |
+| -------- | ------- |
+| Easy     | 70–80   |
+| Aerobic  | 80–88   |
+| Tempo    | 90–95   |
+| Schwelle | 98–102  |
+| VO2      | 105–110 |
+
+---
+
+# Beispiel-Wochen
+
+## Deload Woche (8–10 h)
+
+Ziel: Ermüdung reduzieren, Intensität kurz erhalten.
+
+**Montag**
+OFF oder Mobility
+
+**Dienstag**
+AM – Easy Run Commute
+40–45 min @ 70–75 % rFTP
+
+PM – Easy Run
+40 min
+
+Swim Technik
+45 min
+
+---
+
+**Mittwoch – Bike Aktivierung**
+
+75–90 min
+
+Session
+4×5 min @ 90 % FTP
+5 min locker
+
+---
+
+**Donnerstag**
+
+AM – Easy Run Commute
+40 min
+
+PM – Quality Run
+3×8 min @ 95–98 % rFTP
+
+Swim locker
+45 min
+
+---
+
+**Freitag**
+
+Bike locker
+60 min Z2
+
+---
+
+**Samstag – Longrun reduziert**
+
+70–80 min
+80–85 % rFTP
+
+Swim locker
+45 min
+
+---
+
+**Sonntag – Aerobic Ride**
+
+1:45–2:00
+Z2
+
+---
+
+Gesamt
+**~9–10 h**
+
+---
+
+# Standard Build Woche (12–14 h)
+
+**Montag**
+
+OFF oder Mobility
+
+---
+
+**Dienstag**
+
+AM Run Commute
+45 min @ 70–75 %
+
+PM Run Commute
+45 min
+
+Swim Technik
+60 min
+
+---
+
+**Mittwoch – Bike Key (Schwelle)**
+
+1:30–1:45
+
+Over/Under
+3×12 min
+
+2 min @95 %
+2 min @105 %
+
+6 min Pause
+
+---
+
+**Donnerstag**
+
+AM Run Commute
+45 min easy
+
+PM Quality Run
+
+4×8 min
+98–100 % rFTP
+
+Swim
+60 min
+
+---
+
+**Freitag – Bike Aerobic**
+
+1:45
+
+3×20 min
+80–85 % FTP
+
+---
+
+**Samstag – Longrun**
+
+1:30–1:40
+
+erste 60 min
+80–85 % rFTP
+
+letzte 20 min
+90–92 %
+
+Swim locker
+45 min
+
+---
+
+**Sonntag – Longride**
+
+3:00–3:30
+
+Z2
+
+* optional
+
+3×10 min
+85–88 %
+
+---
+
+Gesamt
+**13–14 h**
+
+---
+
+# High Week (15–16 h)
+
+**Montag**
+
+OFF
+
+---
+
+**Dienstag**
+
+Run Commute
+2×45 min easy
+
+Swim
+60 min
+
+---
+
+**Mittwoch – Bike Key**
+
+2:00
+
+Over/Under
+
+3×16 min
+
+3 min @95 %
+3 min @105 %
+
+---
+
+**Donnerstag**
+
+Run Commute
+45 min easy
+
+Quality Run
+
+5×1 km
+105 % rFTP
+
+Swim
+60 min
+
+---
+
+**Freitag – Bike Tempo**
+
+2:00
+
+2×30 min
+80–85 %
+
+---
+
+**Samstag – Longrun**
+
+1:45–2:00
+
+erste 70 min
+80–85 %
+
+letzte 30 min
+90–95 %
+
+---
+
+**Sonntag – Groupride / Longride**
+
+3:30–4:00
+
+Gruppenride mit Surges
+
+typisch:
+
+8–10×
+30–60 s
+120–140 % FTP
+
+oder
+
+2×20 min
+85–90 %
+
+---
+
+Gesamt
+**15–16 h**
+
+---
+
+# Over/Under Progression (TTE Entwicklung)
+
+Ziel:
+FTP-Stabilität und Laktat-Clearance verbessern.
+
+Start mit deiner aktuellen FTP **~250 W**.
+
+---
+
+### Phase 1 (3 Wochen)
+
+4×8 min
+
+2 min @95 %
+2 min @105 %
+
+Total Belastung
+**32 min**
+
+---
+
+### Phase 2
+
+3×12 min
+
+2 min @95
+2 min @105
+
+Total
+**36 min**
+
+---
+
+### Phase 3
+
+3×16 min
+
+3 min @95
+3 min @105
+
+Total
+**48 min**
+
+---
+
+### Phase 4
+
+2×20 min
+
+4 min @95
+4 min @105
+
+Total
+**40 min**
+
+---
+
+### Phase 5 (Peak)
+
+1×40 min Continuous OU
+
+3 min @95
+3 min @105
+
+---
+
+Diese Progression erhöht typischerweise:
+
+* **TTE von ~30 → 40–45 min**
+* **FTP +5–8 %**
+
+→ realistisch **265–270 W**
+
+---
+
+# Sonntagsstruktur (flexibel)
+
+Sonntag darf stark variieren:
+
+**Option 1 – Longride**
+
+3–4 h Z2
+
+---
+
+**Option 2 – Groupride**
+
+Surges:
+
+* 30–60 s
+* 120–140 % FTP
+
+---
+
+**Option 3 – Race Simulation**
+
+2–3×20 min
+85–90 % FTP
+
+direkt danach
+
+10–15 min Brick Run
+90–95 % rFTP
+
+---
+
+# Erwartete Leistungsentwicklung
+
+| Zeitpunkt | FTP     | rFTP    |
+| --------- | ------- | ------- |
+| März      | 250     | 290     |
+| Mai       | ~260    | 295     |
+| Juli      | 265–270 | 300–305 |
+
+---
+
